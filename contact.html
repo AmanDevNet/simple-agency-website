@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Nexus</title>
+    <meta name="description" content="Get in touch with Nexus to start your next big project.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-blob"></div>
+    
+    <nav>
+        <a href="index.html" class="logo">NEXUS</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="mb-2 text-center">
+            <h1>Let's <span>Talk</span></h1>
+            <p class="subtitle">Ready to build something amazing? Send us a message.</p>
+        </div>
+
+        <form class="contact-form glass-card" onsubmit="event.preventDefault(); alert('Message sent successfully! We will be in touch.');">
+            <div class="input-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+                <textarea placeholder="Tell us about your project" required></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nexus Agency. Designed for excellence.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
